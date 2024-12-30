@@ -1,0 +1,16 @@
+# モノローグ
+imgPath "PNG/mid6"
+bgImgPath "PNG/01_bg"
+bgImg "006_1"
+msg "モノローグ","r"
+delay 1000
+clr "clr"
+msg "クリックしてください","lcm"
+pa "WAV/Serena_01森は私たちに"
+imgPath "PNG/05"
+img "01_セレナ"
+bgImg "006_2"
+msg "この森は、私たちに多くの秘密を囁く。","r"
+msg "ただ、それを理解する者は少ない。","cm"
+delay 9000
+msg "クリックしてください","lcm"

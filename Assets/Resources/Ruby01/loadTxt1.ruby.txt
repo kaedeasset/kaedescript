@@ -1,0 +1,15 @@
+﻿def speak(id, text)
+  cmd('speak', id: id, text: text)
+end
+
+def wait(duration)
+  cmd('wait', time: duration)
+end
+
+def move(id, to)
+  cmd('move', id: id, to: to)
+end
+
+def img(id)
+  cmd('img', id: id)
+end

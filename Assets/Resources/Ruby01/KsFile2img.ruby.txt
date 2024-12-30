@@ -1,0 +1,13 @@
+﻿# 呼び出し例
+imgPath "PNG/booth/02_character"
+bgImgPath "PNG/01_bg"
+msg "029_c1ce98aa79b2", "lcm"
+img "029_c1ce98aa79b2"
+#msg "048_fe0e787254c9", "lcm"
+#img "048_fe0e787254c9"
+msg "001", "lcm"
+bgImg "001"
+# msg "002", "lcm"
+# bgImg "002"
+
+

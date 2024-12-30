@@ -1,0 +1,21 @@
+﻿#KsFile1
+imgPath "PNG/05"
+bgImgPath "PNG/01_bg"
+img "04"
+bgImg "002"
+msg "クリックしてください","lcm"
+pa "WAV/0-カエデスクリプトをかいはつちゅうです"
+msg "カエデスクリプトをかいはつちゅうです", "r"
+delay 2000
+msg "モノローグ","r"
+delay 1000
+clr "clr"
+msg "クリックしてください","lcm"
+img "01_セレナ"
+bgImg "006"
+pa "WAV/Serena_01森は私たちに"
+msg "森は、私たちに多くの秘密を囁きます。","r"
+msg "ただ、それを理解する者は少ないのです。","r"
+delay 7000
+clr "clr"
+msg "クリックしてください","lcm"

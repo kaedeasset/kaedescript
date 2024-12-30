@@ -1,0 +1,5 @@
+﻿# 呼び出し例
+speak "Bob3", "Hello3"
+log "Log to Unity ! #{state[:int_value]}"
+state[:int_value] = 1111
+log "Log to Unity ! #{state[:int_value]}"

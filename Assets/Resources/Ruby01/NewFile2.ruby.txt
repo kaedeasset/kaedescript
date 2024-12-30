@@ -1,0 +1,7 @@
+﻿ # When the method is defined...
+ #def move(id, to) = cmd :move, id:, to:
+ # It can be written like this
+ #move "Bob", [5, 5]
+
+def speak(id, text) cmd(:speak, id: id, text: text) end
+speak('Bob2', 'Hello2')

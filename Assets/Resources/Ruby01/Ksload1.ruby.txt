@@ -1,0 +1,50 @@
+﻿def move(id, to)
+  cmd('move', Id: id, To: to)
+end
+
+def moveone(id)
+  cmd('moveone', Id: id)
+end
+
+# Image
+def bgImgPath(path)
+  cmd('bgImgPath', Path: path)
+end
+
+def img(filename)
+  cmd('img', FileName: filename)
+end
+
+def imgPath(path)
+  cmd('imgPath', Path: path)
+end
+
+def bgImg(filename)
+  cmd('bgImg', FileName: filename)
+end
+
+def bgImgPath(path)
+  cmd('bgImgPath', Path: path)
+end
+
+# Text
+def msg(msg, arg1)
+  cmd('msg', Msg: msg, Arg1: arg1)
+end
+
+def clr(msg)
+  cmd('clr', Msg: msg) 
+end
+
+# Sound
+def pa(filename)
+  cmd('pa', FileName: filename) 
+end
+
+def delay(msec)
+  cmd('delay', MSec: msec) 
+end
+
+def choice(choice1,choice2 ,choice3)
+  cmd('choice', Choice1: choice1, Choice2: choice2, Choice3: choice3) 
+end

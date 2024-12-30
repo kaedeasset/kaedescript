@@ -1,0 +1,23 @@
+# モノローグ
+imgPath "PNG/mid6"
+bgImgPath "PNG/01_bg"
+delay 100
+clr "clr"
+msg "クリックしてください","lcm"
+pa "WAV/0-カエデスクリプトをかいはつちゅうです"
+msg "カエデスクリプトをかいはつちゅうです", "r"
+delay 2000
+bgImg "006_1"
+msg "モノローグ","r"
+delay 1000
+clr "clr"
+msg "クリックしてください","lcm"
+pa "WAV/Serena_01森は私たちに"
+imgPath "PNG/05"
+img "01_セレナ"
+bgImg "006_2"
+msg "森は、私たちに多くの秘密を囁きます。","r"
+msg "ただ、それを理解する者は少ないのです。","r"
+delay 7000
+clr "clr"
+msg "クリックしてください","lcm"

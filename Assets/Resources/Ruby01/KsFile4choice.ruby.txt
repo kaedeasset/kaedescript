@@ -1,0 +1,37 @@
+﻿# KsFile4choice.txt
+clr "clr"
+imgPath "PNG/05"
+bgImgPath "PNG/01_bg"
+img "08"
+bgImg "007"
+msg "choiceテスト どれかを選択して押してください", "r"
+log "choice"
+int_value = "値は= #{state[:int_value]}"
+selected_choice = "値は= #{state[:selected_choice]}"
+log int_value
+log selected_choice
+choice "Option 1", "Option 2", "Option 3"
+log "choice result-1"
+int_value = "値は= #{state[:int_value]} です"
+selected_choice = "値は= #{state[:selected_choice]} です"
+log int_value
+log selected_choice
+msg selected_choice, "lcm"
+log "choice result-2"
+if state[:selected_choice] == 1
+  bgImg "001"
+  img "04"
+  msg "選択は1です", "lcm"
+elsif state[:selected_choice] == 2
+  bgImg "002"
+  img "05"
+  msg "選択は2です", "lcm"
+elsif state[:selected_choice] == 3
+  bgImg "006"
+  img "06"
+  msg "選択は3です", "lcm"
+else
+  bgImg "006"
+  img "07"
+  msg "選択はその他です", "lcm"
+end

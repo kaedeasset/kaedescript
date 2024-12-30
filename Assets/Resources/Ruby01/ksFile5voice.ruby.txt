@@ -1,0 +1,23 @@
+# ksFile5voice.ruby
+clr "clr"
+imgPath "PNG/05"
+bgImgPath "PNG/01_bg"
+img "07"
+bgImg "002"
+msg "クリックしてください","lcm"
+pa "WAV/voice_各艦隊聯合艦隊司令長官東郷平八郎の指揮_水戸 明日菜"
+msg "各艦隊、聯合艦隊司令長官東郷平八郎の指揮のもと、", "r"
+delay 4000
+clr "clr"
+msg "敵艦隊を撃滅すべく備えを整う。", "r"
+msg "すでに前路を阻むべき準備万端整い、", "r"
+delay 4000
+clr "clr"
+msg "我が軍の士気昂然たるものあり。", "r"
+msg "いまや敵艦、対馬海峡を渡り来たるとの報あり。", "r"
+delay 6000
+clr "clr"
+msg "各艦、これを迎撃し、帝国の威光を四海に知らしむるべき好機到来せり。", "r"
+delay 6000
+clr "clr"
+msg "クリックしてください","lcm"

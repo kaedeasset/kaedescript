@@ -1,0 +1,2 @@
+﻿cmd :speak, id: 'Bob', text: 'Hello'
+cmd :speak2, id: 'Bob', text: 'Hello'
